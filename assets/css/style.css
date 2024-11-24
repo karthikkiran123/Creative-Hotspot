@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html { scroll-behavior: smooth;}
+
+body{
+    background: #FAEBD7;
+}
+
+#profile-picture{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#myVideo{
+    width: 100%;
+    /* height: calc(100vh - 100px - 50px); */
+}
+
+#content{
+    min-height: calc(100vh - 100px - 40px);
+}
+
+.topbtn{
+    position:fixed;
+    right:0;
+    bottom:0;
+    /* padding: 20px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    /* transform: rotate(90deg); */
+    /* font-size: 50px; */
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: rgba(20, 30, 39, .9);
+    color: #fff;
+    text-decoration: none;
+}
+
+.topbtn img{
+    width: 20px;
+    height: 16px;
+    margin-top: -5px;
+}
+
+.topbtn:hover{
+    color: #fff;
+    background-color: rgb(20, 30, 39);
+}
+
+.footer{
+    background-color: #141e27;
+    color: #fff;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #141e27; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #141e27; 
+  }
+
+.search{
+    width: 250px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.banner{
+    background-color: #e6e4e2;
+}
+
+nav{
+    width: 100%;
+    height: 150px;
+    background-color: #141e27;
+    color: #fff;
+}
+
+nav .logo{
+    height: 150px;
+    margin-left: 150px;
+}
+
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 150px;
+    padding-right: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #fff;
+}
+
+nav ul li a.post{
+    background-color: #f5b240;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+nav ul li a.post:hover{
+    background-color: #fff;
+    color: #f5b240;
+}
+
+.header{
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+}
+
+.header ul{
+    list-style: none;
+    margin-left: 100px;
+}
+
+.header ul li{
+    display: inline-block;
+    line-height: 50px;
+    padding-right: 10px;
+}
+
+.header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+ 
+
